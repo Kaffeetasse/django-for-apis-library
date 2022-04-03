@@ -21,4 +21,5 @@ class APITests(APITestCase):
         response = self.client.get(reverse("book_list"), format="json")
         self.assertEqual(response.status_code, status.HTTP_200_OK)
         self.assertEqual(Book.objects.count(), 1)
+        self.assertEqual(len(response.data), 1)
         self.assertEqual(response.data[0], BookSerializer(self.book).data)
