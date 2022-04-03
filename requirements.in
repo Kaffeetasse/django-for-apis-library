@@ -1,0 +1,3 @@
+# look in readme.md for more info
+Django~=4.0.0
+djangorestframework~=3.13.0
