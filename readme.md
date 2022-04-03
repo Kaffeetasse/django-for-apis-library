@@ -12,3 +12,13 @@
 2. run `pip-compile` or for dev `pip-compile dev_requirements.in`
 3. add version to requirements.in if omitted in 1.
 4. run `pip-sync` or for dev `pip-sync requirements.txt dev_requirements.txt`
+
+## useful commands
+
+project init `django-admin startproject django_project . `
+
+app init `python manage.py startapp books`
+
+add new migrations `python manage.py makemigrations books`
+
+exec migrate `python manage.py migrate`
