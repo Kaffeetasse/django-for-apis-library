@@ -22,3 +22,5 @@ app init `python manage.py startapp books`
 add new migrations `python manage.py makemigrations books`
 
 exec migrate `python manage.py migrate`
+
+create su `python manage.py createsuperuser`
