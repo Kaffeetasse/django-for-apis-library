@@ -28,3 +28,5 @@ create su `python manage.py createsuperuser`
 test `python manage.py test`
 
 run `python manage.py runserver`
+
+`python manage.py collectstatic`
